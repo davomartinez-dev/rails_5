@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one: #valud customer
+  first_name: sarah
+  last_name: winckles
+  username: winsar
+
+two: #must not clash with four
+  first_name: pedro
+  last_name: bollo
+  username: bollop
+
+three: #invalid customer
+  first_name: yazmin
+  last_name: 
+  username: lotus123
+
+four: #must notclas with two
+  first_name: pablo
+  last_name: bollo
+  username: bollop
